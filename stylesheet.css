@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+.taas  {
+    display: flex; 
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #232327;
+    justify-content: flex-start; /* default alignment */
+}
+
+ul li {
+    margin-right: 15px;          /* use margin instead of float */
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #8338cc;
+}
+
+/* Container for image and text side by side */
+#proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+#face {
+    border: 2px solid #b59e90;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#name {
+    max-width: 600px;
+    color: white;
+    margin: 0 auto;
+    margin-left: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+#kiz {
+    font-size: 45px;
+    font-weight: bold;
+    color: #8338cc;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#tu {
+    font-size: 25px;
+    margin: 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    #kiz {
+        font-size: 2.5rem;
+    }
+
+    #tu {
+        font-size: 1.3rem;
+    }
+
+    #proj {
+        flex-direction: column;     /* stack image and text vertically */
+        padding: 20px;
+    }
+
+    #face {
+        width: 300px;
+        height: 300px;
+    }
+
+    .taas {
+        justify-content: center;    /* center nav menu items */
+    }
+
+    ul li {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        scroll-padding-top: 130px;
+    }
+
+    ul li a {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    #face {
+        width: 200px;
+        height: 200px;
+    }
+    
+    #kiz {
+        font-size: 1.8rem;
+    }
+    
+    #tu {
+        font-size: 1rem;
+    }
+    
+    #proj {
+        gap: 20px;
+        padding: 10px;
+    }
+}

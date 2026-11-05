@@ -1,0 +1,320 @@
+body {
+    background-color: BLACK;
+}
+
+.taas  {
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;   
+    background-color: #232327;
+}
+
+ul li {
+    float: left;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+ul li a:hover {
+    background-color: #8338cc;
+}   
+
+/*body*/
+
+#bg {
+    position:absolute;
+    top: 30%;
+    left: 5%;
+    padding: 150px;
+    border: 2px solid #232327;    
+    width: 75%;
+    background-color: #232327;
+    
+}
+
+#likod {
+    position:absolute;
+    top: 5%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: #8338cc;
+}
+
+#lol {
+     position:absolute;
+     top: 40%;
+     text-align: justify;
+     font-size: 20px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+#one {
+    position:absolute;
+     top: 50%;
+     text-align: justify;
+     font-size: 20px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+    
+#two {
+    position:absolute;
+     top: 60%;
+     text-align: justify;
+     font-size: 20px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+#dugtong {
+    position:absolute;
+     top: 70%;
+     text-align: justify;
+     font-size: 20px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+.galing {
+    position:absolute;
+    top: 80%;
+    left: 5%;
+    padding: 80px;
+    border: 2px solid #232327;    
+    width: 83%;
+    background-color: #232327;
+    
+}
+
+#iskil {
+    position:absolute;
+    top: 0%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: #8338cc;
+}
+
+#uno {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+#dos {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+#tres {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+#kwatro {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman';
+}
+
+.habi {
+    position:absolute;
+    top: 150%;
+    left: 5%;
+    padding: 130px;
+    border: 2px solid #232327;    
+    width: 77%;
+    background-color: #232327;
+    
+}
+
+#hobbi {
+    position:absolute;
+    top: 0%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    color: #8338cc;
+}
+
+#exp {
+     position:absolute;
+     top: 50%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 20px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+#contact {
+    position:absolute;
+    top: 200%;
+    left: 5%;
+    padding: 130px;
+    border: 2px solid #232327;    
+    width: 77%;
+    background-color: #232327;
+}
+
+#kuntak {
+     position:absolute;
+     top: 5%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 50px;
+     font-family: 'Times New Roman';
+     color: #8338cc;
+}
+
+#num {
+    position:absolute;
+     top: 40%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 30px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+#gma {
+    position:absolute;
+     top: 55%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 30px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+
+#exp {
+    padding: 20px;
+    }   
+
+#contact {
+    padding: 130px;
+    }
+
+#kuntak {
+     position:absolute;
+     top: 5%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 50px;
+     font-family: 'Times New Roman';
+    background-color: #232327;
+}
+
+#kuntak {
+     position:absolute;
+     top: 5%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 50px;
+     font-family: 'Times New Roman';
+     color: #8338cc;
+}
+
+#num {
+    position:absolute;
+     top: 40%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 30px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+#gma {
+    position:absolute;
+     top: 55%;
+     text-align: justify;
+     font-weight: bold;
+     font-size: 30px;
+     font-family: 'Times New Roman';
+     color: white;
+}
+
+@media (max-width: 800px) {
+    #proj {
+        flex-direction: column; 
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        scroll-padding-top: 130px;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .taas {
+        padding: 10px;
+    }
+
+    ul li a {
+        padding: 14px 16px;
+    }
+
+   
+    #bg, .galing, .habi, #contact {
+        position: relative; 
+        top: auto;
+        left: auto;
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto 40px auto;
+        border: 2px solid #232327;
+        background-color: #232327;
+    }
+
+    #likod, #lol, #one, #two, #dugtong,
+    #iskil, #uno, #dos, #tres, #kwatro,
+    #hobbi, #exp, #kuntak, #num, #gma {
+        position: relative;
+        top: auto;
+        left: auto;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 18px; 
+    }
+
+    
+    #likod, #iskil, #hobbi, #kuntak {
+        font-size: 36px;
+        color: #8338cc;
+        font-weight: bold;
+    }
+
+    
+    #flower {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
